@@ -44,6 +44,7 @@ class MainHook : XposedModule() {
             hook(getIntMethod).intercept { chain ->
                 val key = chain.args[1] as String
                 if (DREAM_KEYS.contains(key)) {
+                    1
                 } else {
                     chain.proceed()
                 }
