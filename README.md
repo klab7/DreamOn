@@ -9,6 +9,7 @@ For some reason Google restricts the following new screen saver options to Pixel
 * Home Controls
 * Pilot Bold Clock
 * Weather
+
 This module is here to fix this!
 
 ## Installation
