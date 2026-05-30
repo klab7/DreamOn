@@ -1,0 +1,3 @@
+-keep class org.klab.dreamon.MainHook { *; }
+-keep class io.github.libxposed.** { *; }
+-keep interface io.github.libxposed.** { *; }
